@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="img/tabela-de-filmes-.png">
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+        crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="css/style.css">
+    <title>Filmes Favoritos</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/tabela-de-filmes-.png" alt="Filmes" class="img-fluid">
+                </div>
+                <div class="col-sm-8">
+                <h1>Meus Filmes Favoritos</h1>
+                <form>
+                    <fieldset>
+                        <p><label for="inTitulo">Título do Filme:</label>
+                        <input type="text" class="form-control" id="inTitulo" required>
+                        </p>
+                        <p><label for="inTitulo">Gênero:</label>
+                        <input type="text" class="form-control" id="inGenero" required>
+                        </p>
+                        <input type="submit" class="btn btn-primary float-right mb-3" value="Adicionar">
+                    </fieldset>
+                </form>
+                <table class="table table-striped">
+                    <tr>
+                        <th>
+                            Título do Filme
+                        </th>
+                        <th>
+                            Gênero
+                        </th>
+                        <th>
+                            Ações
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/ex10_3.js"></script>
+</body>
+</html>
